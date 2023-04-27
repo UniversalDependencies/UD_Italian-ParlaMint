@@ -4,9 +4,9 @@
 2	seduta	seduta	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	aperta	aperto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
-5	(	(	PUNCT	FB	_	6	punct	_	SpaceAfter=Yes|CorrectSpaceAfter=No
+5	(	(	PUNCT	FB	_	6	punct	_	CorrectSpaceAfter=No
 6	ore	ora	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
-7	9,32	9,32	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=Yes|CorrectSpaceAfter=No
+7	9,32	9,32	NUM	N	NumType=Card	6	nummod	_	CorrectSpaceAfter=No
 8	)	)	PUNCT	FB	_	6	punct	_	SpaceAfter=No
 9	.	.	PUNCT	FS	_	4	punct	_	_
 
@@ -24,7 +24,7 @@
 
 # sent_id = ParlaMint-IT_2015-03-11-LEG17-Sed-407_3
 # text = SAGGESE , segretario, dà lettura del processo verbale della seduta antimeridiana del 5 marzo.
-1	SAGGESE	Saggese	PROPN	SP	_	5	nsubj	_	SpaceAfter=Yes|CorrectSpaceAfter=No
+1	SAGGESE	Saggese	PROPN	SP	_	5	nsubj	_	CorrectSpaceAfter=No
 2	,	,	PUNCT	FF	_	1	punct	_	_
 3	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
 4	,	,	PUNCT	FF	_	1	punct	_	_
@@ -385,7 +385,7 @@
 18	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
 19	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	20	obj	_	_
 20	lascia	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	_
-21	parlare	parlare	VERB	V	VerbForm=Inf	20	ccomp	_	SpaceAfter=Yes|CorrectSpaceAfter=No
+21	parlare	parlare	VERB	V	VerbForm=Inf	20	ccomp	_	CorrectSpaceAfter=No
 22	,	,	PUNCT	FF	_	20	punct	_	_
 23	risponderò	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
 24-25	al	_	_	_	_	_	_	_	_
