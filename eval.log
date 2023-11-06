@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Italian-ParlaMint:
-commit 5d975727590110e172279f55182d3bc6eb22cfe8
-Merge: 1308af1 a050cb4
+commit d8cbf1c4e3adb6b584f339354988d0be5506a564
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue May 9 10:50:53 2023 +0200
 Size: counted 20460 of 20460 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.03694352104696.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,13 +20,15 @@ Features: source of annotation (from README) factor is 1.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL         43
-Udapi: found 43 bugs.
+               TOTAL         39
+Udapi: found 39 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 20460 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-ParlaMint/it_parlamint-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-ParlaMint/it_parlamint-ud-train.conllu
+[Line 3942 Sent ParlaMint-IT_2015-03-11-LEG17-Sed-407_120 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'Ecco * che'
+Warnings: 1
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
@@ -35,8 +37,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.43696854312538) = 0.112043216185995
 (weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
 (weight=0.0769230769230769) * (score{tags}=0.882352941176471) = 0.0678733031674208
-(weight=0.307692307692308) * (score{udapi}=0.978983382209189) = 0.301225656064366
+(weight=0.307692307692308) * (score{udapi}=0.980938416422287) = 0.301827205053012
 (weight=0.0769230769230769) * (score{udeprels}=0.891891891891892) = 0.0686070686070686
-(TOTAL score=0.742479259107806) * (availability=1) * (validity=1) = 0.742479259107806
+(TOTAL score=0.743080808096452) * (availability=1) * (validity=1) = 0.743080808096452
 STARS = 3.5
-UD_Italian-ParlaMint	0.742479259107806	3.5
+UD_Italian-ParlaMint	0.743080808096452	3.5
