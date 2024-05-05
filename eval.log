@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Italian-ParlaMint:
-commit d8cbf1c4e3adb6b584f339354988d0be5506a564
+commit 7eef763a26f2b5e944665c00ca46c2b5de584091
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 10:50:53 2023 +0200
+Date:   Mon Nov 6 12:14:13 2023 +0100
 Size: counted 20460 of 20460 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.03694352104696.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 1.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL         39
-Udapi: found 39 bugs.
+               TOTAL         35
+Udapi: found 35 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 20460 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-ParlaMint/it_parlamint-ud-test.conllu
@@ -37,8 +37,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.43696854312538) = 0.112043216185995
 (weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
 (weight=0.0769230769230769) * (score{tags}=0.882352941176471) = 0.0678733031674208
-(weight=0.307692307692308) * (score{udapi}=0.980938416422287) = 0.301827205053012
+(weight=0.307692307692308) * (score{udapi}=0.982893450635386) = 0.302428754041657
 (weight=0.0769230769230769) * (score{udeprels}=0.891891891891892) = 0.0686070686070686
-(TOTAL score=0.743080808096452) * (availability=1) * (validity=1) = 0.743080808096452
+(TOTAL score=0.743682357085098) * (availability=1) * (validity=1) = 0.743682357085098
 STARS = 3.5
-UD_Italian-ParlaMint	0.743080808096452	3.5
+UD_Italian-ParlaMint	0.743682357085098	3.5
