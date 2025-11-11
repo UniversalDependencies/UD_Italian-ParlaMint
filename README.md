@@ -35,6 +35,7 @@ Tomaž Erjavec, Maciej Ogrodniczuk, Petya Osenova, Nikola Ljubešić, Kiril Simo
 Data available since: UD v2.11
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: government legal
 Lemmas: manual native
 UPOS: manual native
